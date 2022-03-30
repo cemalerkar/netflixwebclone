@@ -1,52 +1,160 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Türkiye - TV Programlarını Çevrimiçi İzleyin, Filmleri Çevrimiçi İzleyin</title>
     <link rel="stylesheet" href="main.css">
-    <link rel="icon" href="img/minilogo.png">
-    <title>Giriş Yapın</title>
+    <link rel="icon" href="img/netflixpage.png">
 </head>
 <body>
     <header id="header">
         <div class="header">
-            <div class="navbar">
-                <div class="burger">
-                    <img src="img/Hamburger_icon.svg.png" alt="">
-                </div>
-                <div class="logo">
-                    <img src="img/Logo-Steam.png" alt="">
-                </div>
-            </div>
             <div class="container">
-                <div class="pageleft">
-                    <h1 class="girisyapin">GİRİŞ YAPIN</h1>
-                    <div class="pageleft-input">
-                        <p>Steam Hesap İsmi</p>
-                        <input type="text">
-                        <p>Parola</p>
-                        <input type="password">
-                        <div class="button">
-                            <a href="#login" class="loginbut">Giriş Yapın</a>
-                            <a href="#forgot" class="forgot">Parolanızı mı unuttunuz?</a>
+                <div class="navbar">
+                    <div class="navbar-logo">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <div class="navbar-menu">
+                        <div class="menu-language">
+                            <select name="Language" id="language"">
+                                <option value="turkish" >Türkçe</option>
+                                <option value="english">English</option>
+                            </select>
+                        </div>
+                        <div class="menu-login">
+                            <a href="#">Oturum Aç</a>
                         </div>
                     </div>
                 </div>
-                <div class="pageright">
-                    <div class="pageright-top">
-                        <p>Steam'e katılın ve oynayabileceğiniz <br>binlerce oyunu keşfedin.</p>
-                        <a href="#more">Ayrıntılı Bilgi</a>
-                    </div>
-                    <div class="pageright-bot">
-                        <img src="img/pc.png" alt="">
-                        <p>Kullanımı kolay ve katılması bedava.</p>
-                        <a href="#register" class="register">Steam'e Katılın</a>
-                    </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Sınırsız Film, dizi ve çok <br> daha fazlası.</h1>
+                        <h2>İstediğiniz yerde izleyin. İstediğiniz zaman iptal edin.</h2>
+                        <h3>İzlemeye hazır mısınız? Üyelik oluşturmak veya üyeliğinize erişmek için e‑posta adresinizi girin.</h3>
+                        <div class="input">
+                            <input type="text" placeholder="E-posta adresi">
+                            <a href="#">Başlayın ></a>
+                        </div>
+                </div>
                 </div>
             </div>
         </div>
     </header>
-    
+    <hr>
+    <section id="tv">
+        <div class="tv">
+            <div class="tv-left">
+                <h2>Televizyonunuzda izleyebilirsiniz.</h2>
+                <p>Akıllı TV, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray oynatıcılar ve daha fazlasında seyredin.</p>
+            </div>
+            <div class="tv-right">
+                <div class="tv-tv">
+                    <img src="img/tv.png" alt="">
+                    <div class="tv-video">
+                        <video src="img/video-tv-0819.m4v" autoplay playsinline muted loop></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="download">
+        <div class="download">
+            <div class="download-left">
+                <div class="download-img">
+                    <img src="img/mobile.jpg" alt="" id="kapak">
+                    <div class="download-bot">
+                        <img src="img/strangerkapak.png" alt="">
+                        <div class="strangerthings">
+                            <h2>Stranger Things</h2>
+                            <p>İndiriliyor...</p>
+                        </div>
+                        <img src="img/download-icon.gif" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="download-right">
+                <div class="download-right-cont">
+                    <h2>Çevrimdışı izlemek için içerikleri indirin.</h2>
+                    <p>En sevdiğiniz içerikleri kolayca kaydedin ve her zaman izleyecek bir şeyleriniz olsun.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="mac">
+        <div class="tv">
+            <div class="tv-left">
+                <h2>İstediğiniz her yerde izleyin.</h2>
+                <p>Ekstra ücret ödemeden telefonda, tablette, bilgisayarda, televizyonda sınırsız film ve dizi izleyin.</p>
+            </div>
+            <div class="tv-right">
+                <div class="mac-mac">
+                    <img src="img/mac.png" alt="">
+                    <div class="mac-video">
+                        <video src="img/videomac.m4v" autoplay playsinline muted loop id="macvid"></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="kids">
+        <div class="download">
+            <div class="download-left">
+                <div class="download-img">
+                    <img src="img/kids.png" alt="" id="kapak">
+                </div>
+            </div>
+            <div class="download-right">
+                <div class="download-right-cont">
+                    <h2>Çevrimdışı izlemek için içerikleri indirin.</h2>
+                    <p>En sevdiğiniz içerikleri kolayca kaydedin ve her zaman izleyecek bir şeyleriniz olsun.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="sss">
+        <div class="sss">
+            <div class="sss-header">
+                <h2>Sıkça Sorulan Sorular</h2>
+            </div>
+            <div class="sss-sorular">
+                <div class="soru">
+                    <p>Netflix nedir?</p>
+                    <p>+</p>
+                </div>
+                <div class="soru">
+                    <p>Netflix'in maliyeti nedir?</p>
+                    <p>+</p>
+                </div>
+                <div class="soru">
+                    <p>Nerede izleyebilirim?</p>
+                    <p>+</p>
+                </div>
+                <div class="soru">
+                    <p>Nasıl iptal ederim?</p>
+                    <p>+</p>
+                </div>
+                <div class="soru">
+                    <p>Netflix'te ne izleyebilirim?</p>
+                    <p>+</p>
+                </div>
+                <div class="soru">
+                    <p>Netflix çocuklar için uygun mudur?</p>
+                    <p>+</p>
+                </div>
+            </div>
+            <h3>İzlemeye hazır mısınız? Üyelik oluşturmak veya üyeliğinize erişmek için e‑posta adresinizi girin.</h3>
+            <div class="input">
+                <input type="text" placeholder="E-posta adresi">
+                <a href="#">Başlayın ></a>
+            </div>
+        </div>
+    </section>
+    <hr class="lasthr">
 </body>
 </html>
